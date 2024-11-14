@@ -109,6 +109,10 @@ class _MyHomePageState extends State<MyHomePage> {
               'Hello World!!!',
               style: Theme.of(context).textTheme.displayLarge,
             ),
+            Text(
+              'Small hello!',
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
             const Text(
               'You have pushed the button this many times:',
             ),
